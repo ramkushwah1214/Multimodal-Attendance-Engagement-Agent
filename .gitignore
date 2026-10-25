@@ -36,6 +36,11 @@ data/uploads/*
 data/db/*.db
 data/embeddings/*.npy
 !data/embeddings/.gitkeep
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/embeddings/*.npy
+!backend/data/embeddings/student_1_CS-2024-002.npy
+
 
 # Models weights cache
 *.pt
