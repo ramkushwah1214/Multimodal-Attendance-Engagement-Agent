@@ -1,6 +1,34 @@
 # Multimodal Attendance & Engagement Agent
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+
 An offline-first, privacy-preserving classroom intelligence application that combines automated attendance verification, observable engagement signal analysis, session telemetry, and context-aware pedagogical suggestions.
+
+---
+
+## 🚀 Live Streamlit Cloud Deployment
+
+This repository is optimized for **1-click deployment on Streamlit Community Cloud**:
+
+1. Fork or open your repository: `https://github.com/ramkushwah1214/Multimodal-Attendance-Engagement-Agent`
+2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
+3. Click **"New app"** and configure:
+   - **Repository:** `ramkushwah1214/Multimodal-Attendance-Engagement-Agent`
+   - **Branch:** `main`
+   - **Main file path:** `streamlit_app.py`
+4. Click **Deploy!**
+5. Once loaded, click the sidebar button **"Load Demo Classroom Data"** to instantly populate interactive charts, enrolled student rosters, telemetry timelines, and pedagogical suggestions!
+
+### Run Streamlit App Locally:
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the Streamlit HUD
+streamlit run streamlit_app.py
+```
+
+---
 
 ---
 
